@@ -22,7 +22,7 @@ h1{
   padding: 0 20px;
 }
 h1 span{
-    font-size:50px;
+    font-size:45px;
 }
 </style>
 
@@ -128,7 +128,7 @@ window.addEventListener("resize", onResize);
 requestAnimationFrame(render);
 
 window.onload=function starttime(){
-        time(h1,'2019/6/16');     // 刚在一起的时间
+        time(h1,'2012/3/28');     // 刚在一起的时间
         ptimer = setTimeout(starttime,1000); // 添加计时器
 }
 
@@ -141,15 +141,8 @@ window.onload=function starttime(){
         var hour = parseInt(time/3600)-24*day;    // 小时 60*60 总小时数-过去的小时数=现在的小时数 
         var minute = parseInt(time%3600/60); // 分 -(day*24) 以60秒为一整份 取余 剩下秒数 秒数/60 就是分钟数
         var second = parseInt(time%60);  // 以60秒为一整份 取余 剩下秒数
-<<<<<<< HEAD
-<<<<<<< HEAD
-        obj.innerHTML="我的夭零先生<br>你脚踏五彩祥云，来了已经：<br>"+day+"天"+hour+"小时"+minute+"分"+second+"秒"+"了<br><span>2022即将来临，<br>十有八九，<br>八九不离十，<br>一言为定，一如既往。<br>爱你</span>"
-=======
-        obj.innerHTML="我的夭零先生<br>你脚踏五彩祥云，来了已经：<br>"+day+"天"+hour+"小时"+minute+"分"+second+"秒"+"了<br> <span> 2022即将来临，<br> 十有八九，<br> 八九不离十，<br> 一言为定，一如既往。<br>爱你</span>"
->>>>>>> 9c98700616a690477d068884d3117b655af21e4c
-=======
-        obj.innerHTML="我的夭零先生<br>你脚踏五彩祥云，来了已经：<br>"+day+"天"+hour+"小时"+minute+"分"+second+"秒"+"了<br><br>=====================<br> <span> 2022即将来临，<br> 十有八九，<br> 八九不离十，<br> 一言为定，一如既往。<br>爱你</span>"
->>>>>>> 1c227a51d9270f7285c183738249b6ed5a8b3e27
+        obj.innerHTML="沙师兄<br>我们在一起已经已经：<br>"+day+"天"+hour+"小时"+minute+"分"+second+"秒"+"了<br>====================<br><span>祝你生日快乐！<br>甜时是夫妻，累时是兄弟<br>你知我辛苦，我知你不易<br>深情不及久伴，厚爱无需多言<br>好好生活，慢慢爱你<br>用最初的心陪你走最远的路</span>"
+
         return true;
     }
 </script>
